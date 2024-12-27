@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DaataAccess\DaataAccess.csproj" />
+    <ProjectReference Include="..\MargetManagement.Core\MargetManagement.Core.csproj" />
+    <ProjectReference Include="..\ProductManagement.Business\ProductManagement.Business.csproj" />
+  </ItemGroup>
+
+</Project>
